@@ -9,22 +9,22 @@
 # ---------------------------------------------------------------------------------------
 base_info:
   # Theme primary color
-  primary_color: "#0066cc"
+  primary_color: "#e67e22"
 
   # Blog website title
-  title: Keep Theme
+  title: 朱阳阳的博客
 
   # Blog website author name
-  author: Keep Team
+  author: Zhu Yangyang
 
   # Author avatar, You can use local image path or image link
-  avatar: /images/avatar.svg
+  # avatar: /images/avatar.svg
 
   # Website LOGO, You can use local image path or image link
-  logo: /images/logo.svg
+  # logo: /images/logo.svg
 
   # Website favicon, You can use local image path or image link
-  favicon: /images/logo.svg
+  # favicon: /images/logo.svg
 
 
 # ---------------------------------------------------------------------------------------
@@ -91,7 +91,7 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 scroll:
   # Show progress bar in top when page scroll
-  progress_bar: false  # Option values: true | false
+  progress_bar: true  # Option values: true | false
 
   # Show percent when page scroll
   percent: true       # Option values: true | false
@@ -123,7 +123,7 @@ home:
 post:
   # Author badge in the post
   author_badge:
-    enable: true         # Option values: true | false
+    enable: false         # Option values: true | false
 
     # If true, show Lv1, Lv2, Lv3 ...
     # If false, show custom badge
@@ -162,7 +162,7 @@ code_block:
   # Toolbar include: "code copy", "code block collapse" and "code language"
   tools:
     enable: true            # Option values: true | false
-    style: default           # Option values: default | mac
+    style: mac           # Option values: default | mac
   highlight_theme: default   # Option values: default | obsidian
 
 
@@ -173,7 +173,7 @@ toc:
   enable: true      # Option values: true | false
 
   # Automatically add list number to toc
-  number: false      # Option values: true | false
+  number: true      # Option values: true | false
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: true  # Option values: true | false
