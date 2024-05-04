@@ -102,4 +102,6 @@ theme: keep
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@110.40.153.249:/home/repo/my_note.git
+  branch: master
