@@ -18,13 +18,13 @@ base_info:
   author: 朱阳阳
 
   # Author avatar, You can use local image path or image link
-  # avatar: /images/avatar.svg
+  avatar: https://docs-1259157567.cos.ap-nanjing.myqcloud.com/docs/favicon.ico
 
   # Website LOGO, You can use local image path or image link
   # logo: /images/logo.svg
 
   # Website favicon, You can use local image path or image link
-  # favicon: /images/logo.svg
+  favicon: https://docs-1259157567.cos.ap-nanjing.myqcloud.com/docs/favicon.ico
 
 
 # ---------------------------------------------------------------------------------------
@@ -123,11 +123,11 @@ home:
 post:
   # Author badge in the post
   author_badge:
-    enable: false         # Option values: true | false
+    enable: true         # Option values: true | false
 
     # If true, show Lv1, Lv2, Lv3 ...
     # If false, show custom badge
-    level_badge: true    # Option values: true | false
+    level_badge: false    # Option values: true | false
 
     # Custom badge array, You can be fill one or more item
     custom_badge: ["One", "Two", "Three"]
